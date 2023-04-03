@@ -123,7 +123,7 @@ In this tutorial, we are going to create a simpler version of the [@datasets/fin
 
 Note the "views" property in the above file. This determines what gets rendered on the visualizations section on DataHub. You can read more about Frictionless Views [here](https://specs.frictionlessdata.io/views/#specification). Currently, DataHub supports only line charts with the "simple" specType, but you can add other visualizations to the document on the README section using the LineChart, Vega, VegaLite and Table components.
 
-Also, note that the `group` and series properties are pointing to fields on the resource specified above. You can change change that to change how the chart behaves.
+Also, note that the `group` and `series` properties are pointing to fields on the resource specified above. You can change change that to change how the chart behaves.
 
 Since we are specifying a resource in the `datapackage.json` file, we also have to add the actual resource file to the repo. Create a `data` folder and inside it create a `vix-daily.csv` file with the following content:
 
